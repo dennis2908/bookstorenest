@@ -9,12 +9,12 @@ import { Book } from './book/entities/book.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
+      host: 'flora.db.elephantsql.com',
       port: 5432,
-      password: '123456',
-      username: 'postgres',
+      password: '0SVGoqgiohoJjRybMlmVhjGyf5KT1vTT',
+      username: 'pquoaiup',
       entities: [Book],
-      database: 'book',
+      database: 'pquoaiup',
       synchronize: true,
       logging: true,
     }),
